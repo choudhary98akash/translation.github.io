@@ -24,7 +24,7 @@
   <span class="form-container">
     <span class="tab">Try Our Service</span>
     <div class="custom-input-container">
-     <input type="text" class="custom-input" [(ngModel)] = "serachInput" placeholder="Type something..."> <!-- ignore vs extension error -->
+     <input type="text" class="custom-input" [(ngModel)] = "inputText" placeholder="Type something..."> <!-- ignore vs extension error -->
     </div>
 
     <div class="btn-translate">
@@ -34,13 +34,17 @@
 
     </div>
     <div>
-      <button class="btn-white-2" (click)="sendOutput">Translate</button>
+      <button class="btn-white-2" (click)="sendOutput()">Translate</button>
     </div>
-  </span>
+
+    <div *ngIf="result"  class="result-container">
+      {{resultText}}
+    </div>
+    </span>
   </div>
 
   
-  <div class="stats-container">
+  <div class="stats-container" *ngIf="!result">
     <div class="stats-box">
       <div class="stats-content" >
         <div class="stats-number">89+</div>
@@ -69,7 +73,10 @@
 </div>
 
 <app-how-to *ngIf="howto"></app-how-to>
+
 <app-faq *ngIf="faq"></app-faq>
+
+<app-contact *ngIf="contact"></app-contact>
 
 <br>
 <br>

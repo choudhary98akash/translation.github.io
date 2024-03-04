@@ -12,15 +12,25 @@ export class AppComponent {
   feedback = false;
   howto = false;
   contact = false;
-  serachInput = '';
+  inputText = '';
+  resultText ='';
+  result = false;
 
 
 
 
 
   sendOutput(){
-    console.log('User is searching for ',this.serachInput);
+    //Inject the service and handler -.baci one is prvided below
+    if(this.inputText===''){
+      alert('Please enter something to convert');
+    }
+     this.resultText = this.inputText;//apply the logic here 
+    
+     this.resultText === ''? this.result = false : this.result = true;
   }
+
+
   showHome() {
     this.home = true;
     this.faq = false;

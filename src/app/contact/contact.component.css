@@ -1,0 +1,56 @@
+
+.mid-text{
+    display: flex;
+    padding: 2%;
+    color: white;
+    font-family: "Tahoma";
+    font-size: 1.5rem;
+    justify-content: center;
+  }
+.contact-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+    margin: 20px;
+    max-width: 300px;
+}
+.contact-container{
+    display: flex;
+    justify-content: space-evenly
+}
+
+.contact-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.contact-details {
+    color: black;
+    padding: 20px;
+}
+
+.contact-details h2 {
+    margin-top: 0;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 1%;
+}
+
+.social-links a {
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-links a:hover {
+    font-size: x-large;
+    color: #007bff;
+}
