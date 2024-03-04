@@ -16,10 +16,6 @@ export class AppComponent {
   resultText ='';
   result = false;
 
-
-
-
-
   sendOutput(){
     //Inject the service and handler -.baci one is prvided below
     if(this.inputText===''){
