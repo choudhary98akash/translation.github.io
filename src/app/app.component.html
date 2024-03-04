@@ -24,7 +24,7 @@
   <span class="form-container">
     <span class="tab">Try Our Service</span>
     <div class="custom-input-container">
-      <input type="text" class="custom-input" placeholder="Type something...">
+     <input type="text" class="custom-input" [(ngModel)] = "serachInput" placeholder="Type something..."> <!-- ignore vs extension error -->
     </div>
 
     <div class="btn-translate">
@@ -34,7 +34,7 @@
 
     </div>
     <div>
-      <button class="btn-white-2">Translate</button>
+      <button class="btn-white-2" (click)="sendOutput">Translate</button>
     </div>
   </span>
   </div>
@@ -67,3 +67,15 @@
     </div>
   </div>
 </div>
+
+<app-how-to></app-how-to>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<footer class="footer">
+  <p class="text-footer">&copy; 2024 FlexiTranslator. All rights reserved.</p>
+</footer>

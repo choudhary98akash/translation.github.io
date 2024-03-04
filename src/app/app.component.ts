@@ -12,11 +12,15 @@ export class AppComponent {
   feedback = false;
   howto = false;
   contact = false;
+  serachInput = '';
 
 
 
 
 
+  sendOutput(){
+    console.log('User is searching for ',this.serachInput);
+  }
   showHome() {
     this.home = true;
     this.faq = false;
