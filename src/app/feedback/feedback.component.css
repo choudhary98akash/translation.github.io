@@ -1,0 +1,12 @@
+.feedback-form-conatainer{
+    display: flex;
+    justify-content: center;
+
+}
+.bottom-margin{
+    margin-bottom:7%;
+    padding: 5%;
+}
+.feed-box{
+    width: 350px;
+}

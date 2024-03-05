@@ -7,3 +7,42 @@ body {
     background-size: cover;
     margin: 0; font-family: "Tahoma", "Helvetica Neue", sans-serif; 
 }
+.mid-text{
+    display: flex;
+    padding: 2%;
+    color: white;
+    font-family: "Tahoma";
+    font-size: 1.5rem;
+    justify-content: center;
+  }
+
+  .btn-white-2 {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #000; 
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .btn-white-2:hover {
+    background-color: #eee;
+    color: #333; 
+  }
+
+  .custom-input {
+    width: 100%;
+    padding: 10px;
+    border: 3.5px solid #fff;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensure padding is included in the total width */
+    font-size: 16px;
+    color: #ffffff; /* Text color inside the input */
+    background-color: #000000;
+  }
+

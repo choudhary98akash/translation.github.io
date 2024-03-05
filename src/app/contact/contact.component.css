@@ -1,12 +1,4 @@
 
-.mid-text{
-    display: flex;
-    padding: 2%;
-    color: white;
-    font-family: "Tahoma";
-    font-size: 1.5rem;
-    justify-content: center;
-  }
 .contact-card {
     background-color: #fff;
     border-radius: 10px;

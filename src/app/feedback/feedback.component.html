@@ -1,1 +1,20 @@
-<p>feedback works!</p>
+<div class="mid-text">
+    <p>Share with us your valuable feedback.</p>
+</div>
+
+<div class="feedback-form-conatainer">
+    <div class="feed-box">
+        <div class="custom-input-container">
+            <input type="text" class="custom-input bottom-margin" [(ngModel)] = "name" placeholder="Enter Name"> <!-- ignore vs extension error -->
+           </div>
+           <div class="custom-input-container">
+            <input type="text" class="custom-input bottom-margin" [(ngModel)] = "email" placeholder="Enter Email"> <!-- ignore vs extension error -->
+           </div>
+           <div class="custom-input-container">
+            <input type="text" class="custom-input bottom-margin" [(ngModel)] = "description" placeholder="Description"> <!-- ignore vs extension error -->
+           </div>
+        <button (click)="onSubmit()" class="btn-white-2 bottom-margin" >Submit</button>
+    </div>
+
+
+</div>
