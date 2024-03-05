@@ -7,6 +7,7 @@ import { HowToComponent } from './how-to/how-to.component';
 import { FaqComponent } from './faq/faq.component';
 import { ContactComponent } from './contact/contact.component';
 import { FeedbackComponent } from './feedback/feedback.component';
+import { AnimateComponent } from './animate/animate.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { FeedbackComponent } from './feedback/feedback.component';
     HowToComponent,
     FaqComponent,
     ContactComponent,
-    FeedbackComponent
+    FeedbackComponent,
+    AnimateComponent
   ],
   imports: [
     BrowserModule,

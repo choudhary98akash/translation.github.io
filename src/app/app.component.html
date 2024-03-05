@@ -18,9 +18,10 @@
   <div class="first-two">
   <span class="container-for-text">
     <span class="text-container-one">Want to translate</span>
-    <span class="text-container-two">free of cost|</span>
+    <!-- <span class="text-container-two">free of cost|</span> -->
+    <app-animate [textToAnimate]="'free of cost.'" [customClass]="'text-container-two'"></app-animate>
   </span>
-
+  
   <span class="form-container">
     <span class="tab">Try Our Service</span>
     <div class="custom-input-container">
@@ -78,7 +79,7 @@
 
 <app-contact *ngIf="contact"></app-contact>
 
-<app-feedback></app-feedback>
+<app-feedback *ngIf="feedback"></app-feedback>
 
 <br>
 <br>
