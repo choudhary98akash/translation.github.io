@@ -9,6 +9,7 @@ export class FeedbackComponent {
   email  = '';
   name = '';
   description ='';
+  textInput ="Reach out to us at RamanLab@gamil.com!";
 
   onSubmit(){
     if( this.email === '' || this.name === '' || this.description === ''){

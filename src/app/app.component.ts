@@ -41,13 +41,7 @@ export class AppComponent {
     this.howto = false;
     this.contact = false;
   }
-  showContact() {
-    this.home = false;
-    this.faq = false;
-    this.feedback = false;
-    this.howto = false;
-    this.contact = true;
-  }
+
   showFaq() {
     this.home = false;
     this.faq = true;

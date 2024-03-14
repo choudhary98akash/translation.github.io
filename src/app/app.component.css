@@ -69,7 +69,9 @@ ul {
   
   .form-container{
     /* padding: 8% 0%; */
+    /* min-width: 350px; */
     width: 30%;
+    min-width: 350px;
     display: flex;
     flex-direction: column;
   }

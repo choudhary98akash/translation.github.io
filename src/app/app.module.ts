@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HowToComponent } from './how-to/how-to.component';
 import { FaqComponent } from './faq/faq.component';
-import { ContactComponent } from './contact/contact.component';
 import { FeedbackComponent } from './feedback/feedback.component';
 import { AnimateComponent } from './animate/animate.component';
 
@@ -14,7 +13,6 @@ import { AnimateComponent } from './animate/animate.component';
     AppComponent,
     HowToComponent,
     FaqComponent,
-    ContactComponent,
     FeedbackComponent,
     AnimateComponent
   ],
