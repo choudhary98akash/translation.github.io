@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FeedService } from '../feed.service';
 
 @Component({
   selector: 'app-feedback',
@@ -6,6 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./feedback.component.css']
 })
 export class FeedbackComponent {
+  constructor(private feedService : FeedService){
+
+  }
   email  = '';
   name = '';
   description ='';
@@ -16,7 +20,8 @@ export class FeedbackComponent {
         alert('Fields cannot be left blank');
     }
     else{
-    console.log('this has been put to form  name : ',this.name,' email ',this.email,' description ',this.description);
+      // send the feed using service 
+      this.feedService.sendFeeback(this.name,this.email,this.description);
     }
 
     //a service to handle the feedback requests.///////////
